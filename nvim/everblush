@@ -1,0 +1,82 @@
+return {
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000,
+  event = 'VimEnter',
+  config = function()
+    require("catppuccin").setup({
+      flavour = "mocha", -- latte, frappe, macchiato, mocha
+      background = {
+        -- :h background
+        light = "latte",
+        dark = "mocha",
+      },
+      transparent_background = true,
+      show_end_of_buffer = false, -- show the '~' characters after the end of buffers
+      term_colors = true,
+      dim_inactive = {
+        enabled = false,
+        shade = "dark",
+        percentage = 0.15,
+      },
+      no_italic = true, -- Force no italic
+      no_bold = false,  -- Force no bold
+      styles = {
+        comments = {},
+        conditionals = { "bold" },
+        loops = { "bold" },
+        functions = { "bold" },
+        keywords = {},
+        strings = {},
+        variables = {},
+        numbers = {},
+        booleans = {},
+        properties = {},
+        types = {},
+        operators = {},
+      },
+      color_overrides = {
+        mocha = {
+          rosewater = "#F5E0DC",
+          flamingo = "#F2CDCD",
+          mauve = "#c47fd5",
+          pink = "#f67588",
+          red = "#e57474",
+          maroon = "#f58484",
+          peach = "#ffb75b",
+          yellow = "#e5c76b",
+          green = "#8ccf7e",
+          blue = "#67b0e8",
+          sky = "#77c0f8",
+          teal = "#8ce0ef",
+          lavender = "#e4bfc5",
+
+          text = "#D9E0EE",
+          subtext1 = "#b3b9b8",
+          subtext0 = "#b3b9b8",
+          overlay2 = "#b3b9b8",
+          overlay1 = "#b3b9b8",
+          overlay0 = "#333b3e",
+          surface2 = "#232a2d",
+          surface1 = "#232a2d",
+          surface0 = "#232a2d",
+
+          base = "#101618",
+          mantle = "#141b1e",
+          crust = "#141b1e",
+        },
+      },
+      custom_highlights = {},
+      integrations = {
+        cmp = true,
+        gitsigns = true,
+        nvimtree = true,
+        telescope = true,
+        notify = false,
+        mini = false,
+        -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+      },
+    })
+    vim.cmd.colorscheme "catppuccin"
+  end
+}

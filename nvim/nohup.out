@@ -1,0 +1,10 @@
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=18: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error

@@ -1,0 +1,56 @@
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+warn: server.c:72: client FD=7: terminal still alive
+warn: server.c:72: client FD=17: terminal still alive
+warn: server.c:72: client FD=26: terminal still alive
+ err: config.c:598: /home/chilly/.config/foot/foot.ini:213: [colors].bright0: surface2: not a valid color value
+warn: server.c:72: client FD=8: terminal still alive
+warn: server.c:72: client FD=18: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+foot: no process found
+foot: no process found
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+ err: wayland.c:1784: failed to roundtrip Wayland display: Connection reset by peer
+ err: wayland.c:1784: failed to roundtrip Wayland display: Connection reset by peer
+ err: wayland.c:1784: failed to roundtrip Wayland display: Connection reset by peer
+ err: wayland.c:1749: failed to flush wayland socket: Connection reset by peer
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+ err: server.c:527: /run/user/1000/foot-wayland-1.sock is already accepting connections; is 'foot --server' already running
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+warn: server.c:72: client FD=16: terminal still alive
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+foot: no process found
