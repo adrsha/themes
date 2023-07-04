@@ -49,3 +49,102 @@ warn: server.c:72: client FD=7: terminal still alive
 [2023-06-24 18:04:14.126] [warning] As using a timezone, some format args may be missing as the date library haven't got a release since 2018.
 [2023-06-24 18:04:14.847] [warning] Requested height: 16 is less than the minimum height: 40 required by the modules
 [2023-06-24 18:04:14.847] [info] Bar configured (width: 1920, height: 40) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=16: terminal still alive
+ err: render.c:3681: TIOCSWINSZ: Bad file descriptor
+[2023-07-02 13:36:01.273] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-02 13:36:01.274] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-02 13:36:01.637] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-02 13:36:01.637] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+warn: server.c:72: client FD=16: terminal still alive
+warn: server.c:72: client FD=7: terminal still alive
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+[2023-07-04 07:41:51.532] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 07:41:51.622] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 07:41:51.908] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 07:41:51.908] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=17: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+[2023-07-04 08:30:13.958] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 08:30:14.055] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 08:30:14.530] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 08:30:14.530] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+[2023-07-04 08:30:37.401] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 08:30:37.402] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 08:30:37.682] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 08:30:37.682] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+warn: server.c:72: client FD=16: terminal still alive
+[2023-07-04 08:31:50.067] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 08:31:50.067] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 08:31:50.331] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 08:31:50.331] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+[2023-07-04 08:32:15.591] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 08:32:15.591] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 08:32:15.841] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 08:32:15.841] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+ err: wayland.c:1248: failed to read events from the Wayland socket: Broken pipe
+ err: wayland.c:1749: failed to flush wayland socket: Broken pipe
+[2023-07-04 16:59:01.605] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 16:59:01.703] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 16:59:01.953] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 16:59:01.953] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
+warn: server.c:72: client FD=15: terminal still alive
+[2023-07-04 17:45:30.693] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 17:45:30.694] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 17:45:30.959] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 17:45:30.959] [info] Bar configured (width: 1920, height: 42) for output: eDP-1

@@ -1,0 +1,20 @@
+[2023-07-02 13:52:16.266] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-02 13:52:16.266] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-02 13:52:16.653] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-02 13:52:16.653] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
+[destroyed object]: error 3: xdg_surface has never been configured
+ err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
+ err: wayland.c:1749: failed to flush wayland socket: Protocol error
+[2023-07-04 17:51:41.756] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 17:51:41.858] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 17:51:42.145] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 17:51:42.146] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+[2023-07-04 17:51:54.450] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 17:51:54.450] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 17:51:54.691] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 17:51:54.691] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+[2023-07-04 17:52:00.767] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 17:52:00.767] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 17:52:01.033] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 17:52:01.033] [info] Bar configured (width: 1920, height: 42) for output: eDP-1

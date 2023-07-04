@@ -11,7 +11,7 @@ return {
         light = "latte",
         dark = "mocha",
       },
-      transparent_background = false,
+      transparent_background = true,
       show_end_of_buffer = false, -- show the '~' characters after the end of buffers
       term_colors = true,
       dim_inactive = {
@@ -61,8 +61,8 @@ return {
           surface1 = "#575268",
           surface0 = "#1e1e2e",
 
-          base = "#0a0a0f",
-          mantle = "#12121C",
+          base = "#12121C",
+          mantle = "#1A1826",
           crust = "#161320",
         },
       },

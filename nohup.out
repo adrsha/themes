@@ -54,3 +54,14 @@ warn: server.c:72: client FD=16: terminal still alive
  err: wayland.c:1784: failed to roundtrip Wayland display: Protocol error
  err: wayland.c:1749: failed to flush wayland socket: Protocol error
 foot: no process found
+ err: server.c:527: /run/user/1000/foot-wayland-1.sock is already accepting connections; is 'foot --server' already running
+[2023-07-02 13:47:02.027] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-02 13:47:02.028] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-02 13:47:02.361] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-02 13:47:02.361] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+[2023-07-04 17:44:41.238] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-04 17:44:41.439] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-04 17:44:41.733] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-04 17:44:41.733] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive

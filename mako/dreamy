@@ -1,0 +1,76 @@
+# GLOBAL
+#sort=+time
+layer=overlay
+
+# STYLE
+font=Barlow 14
+width=200
+height=200
+margin=0,0,10
+padding=30
+border-size=0
+border-radius=20
+progress-color=#ffffff
+max-icon-size=64
+icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
+icon-location=left
+format=<b>%a</b>\n%s
+text-alignment=center
+anchor=bottom-center
+
+# CRITERA
+## urgency
+[urgency=low]
+default-timeout=2500
+background-color=#08080c
+border-color=#0B0B11
+text-color=#ffffff
+
+[urgency=normal]
+default-timeout=8000
+background-color=#08080c
+border-color=#0B0B11
+text-color=#ffffff
+
+[urgency=critical]
+default-timeout=0
+background-color=#C20618
+border-color=#D70015
+text-color=#ffffff
+
+## app-name
+# [app-name=Pomodoro]
+# anchor=top-center
+# format=%s\n%b
+# group-by=app-name
+# default-timeout=1000
+# on-notify=exec echo hello
+#
+[app-name=Spotify]
+default-timeout=8000
+format=<b>Spotify</b>\n%b
+width=300
+padding=20
+anchor=top-left
+margin=70
+#
+# [app-name=control]
+# format=<b>%s</b>\n%b
+# group-by=summary
+# anchor=top-center
+# text-alignment=center
+#
+# [app-name=batsignal]
+# format=<b>%s</b>\n%b
+# group-by=app-name
+#
+# [app-name=batsignal]
+# format=<b>%s</b>\n%b
+#
+# group-by=app-name
+# [app-name=udiskie]
+# default-timeout=2500
+#
+## body
+# [body=""]
+# format=%s\n%b
