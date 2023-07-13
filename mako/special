@@ -4,10 +4,10 @@ layer=overlay
 
 # STYLE
 font=Barlow 14
-width=200
+width=270
 height=200
 margin=0,0,10
-padding=30
+padding=30, 0
 border-size=0
 border-radius=20
 progress-color=#ffffff
@@ -15,7 +15,7 @@ max-icon-size=64
 icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
 icon-location=left
 format=<b>%a</b>\n%s
-text-alignment=center
+text-alignment=left
 anchor=bottom-center
 
 # CRITERA
@@ -23,13 +23,13 @@ anchor=bottom-center
 [urgency=low]
 default-timeout=2500
 background-color=#08080c
-border-color=#0B0B11
+border-color=#000000
 text-color=#ffffff
 
 [urgency=normal]
 default-timeout=8000
-background-color=#08080c
-border-color=#0B0B11
+background-color=#000000
+border-color=#000000
 text-color=#ffffff
 
 [urgency=critical]

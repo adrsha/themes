@@ -1,6 +1,6 @@
 [Settings]
-gtk-theme-name=Catppuccin-Mocha-Standard-Maroon-dark
-gtk-icon-theme-name=Tela-red-dark
+gtk-theme-name=Catppuccin-Mocha-Standard-Flamingo-dark
+gtk-icon-theme-name=Tela-black-dark
 gtk-font-name=Barlow 11
 gtk-cursor-theme-name=breeze_cursors
 gtk-cursor-theme-size=24

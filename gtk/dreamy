@@ -1,6 +1,6 @@
 [Settings]
-gtk-theme-name=Catppuccin-Mocha-Standard-Maroon-dark
-gtk-icon-theme-name=Tela-red-dark
+gtk-theme-name=Graphite-Light
+gtk-icon-theme-name=Tela-black-dark
 gtk-font-name=Barlow 11
 gtk-cursor-theme-name=breeze_cursors
 gtk-cursor-theme-size=24
@@ -14,4 +14,4 @@ gtk-xft-antialias=1
 gtk-xft-hinting=1
 gtk-xft-hintstyle=hintslight
 gtk-xft-rgba=rgb
-gtk-application-prefer-dark-theme=1
+gtk-application-prefer-dark-theme=0

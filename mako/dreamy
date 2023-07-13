@@ -22,13 +22,13 @@ anchor=bottom-center
 ## urgency
 [urgency=low]
 default-timeout=2500
-background-color=#08080c
+background-color=#995867
 border-color=#0B0B11
 text-color=#ffffff
 
 [urgency=normal]
 default-timeout=8000
-background-color=#08080c
+background-color=#995867
 border-color=#0B0B11
 text-color=#ffffff
 

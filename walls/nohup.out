@@ -148,3 +148,5 @@ warn: server.c:72: client FD=15: terminal still alive
 [2023-07-04 17:45:30.694] [info] Using CSS file /home/chilly/.config/waybar/style.css
 [2023-07-04 17:45:30.959] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
 [2023-07-04 17:45:30.959] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
+/home/chilly/Scripts/footrestart.sh: line 2: 61207 Segmentation fault      (core dumped) foot -s

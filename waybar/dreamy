@@ -14,7 +14,7 @@ window#waybar {
 }
 
 #workspaces {
-  background: #000000;
+  background: #995867;
   margin: 5px 5px 5px 5px;
   padding: 0px 5px 0px 5px;
   border-radius: 16px;
@@ -70,7 +70,7 @@ window#waybar {
 }
 
 #tray {
-  background: #000000;
+  background: #995867;
   margin: 5px 5px 5px 5px;
   border-radius: 16px;
   padding: 0px 5px;
@@ -79,7 +79,7 @@ window#waybar {
 
 #clock {
   color: #dddddd;
-  background-color: #000000;
+  background-color: #995867;
   border-radius: 0px 0px 0px 24px;
   padding-left: 13px;
   padding-right: 15px;
@@ -92,7 +92,7 @@ window#waybar {
 }
 
 #battery {
-  background-color: #000000;
+  background-color: #995867;
   /*color: #83A598;*/
   border-radius: 16px;
   margin: 5px;
@@ -149,7 +149,7 @@ window#waybar {
 
 #custom-launcher {
   color: #96cdfb;
-  background-color: #000000;
+  background-color: #995867;
   border-radius: 0px 24px 24px 0px;
   margin: 0px 0px 0px 0px;
   padding: 0 20px 0 13px;
@@ -166,7 +166,7 @@ window#waybar {
 }
 
 #custom-playerctl {
-  background: #000000;
+  background: #995867;
   padding-left: 15px;
   padding-right: 14px;
   border-radius: 16px;
@@ -212,7 +212,7 @@ window#waybar {
 }
 
 #cpu {
-  background-color: #000000;
+  background-color: #995867;
   color: #dddddd;
   border-radius: 16px;
   margin: 5px;
@@ -223,7 +223,7 @@ window#waybar {
 }
 
 #memory {
-  background-color: #000000;
+  background-color: #995867;
   color: #dddddd;
   border-radius: 16px;
   margin: 5px;
@@ -234,7 +234,7 @@ window#waybar {
 }
 
 #disk {
-  background-color: #000000;
+  background-color: #995867;
   color: #dddddd;
   border-radius: 16px;
   margin: 5px;
@@ -245,7 +245,7 @@ window#waybar {
 }
 
 #custom-hyprpicker {
-  background-color: #000000;
+  background-color: #995867;
   /*color: #8EC07C;*/
   border-radius: 16px;
   margin: 5px;

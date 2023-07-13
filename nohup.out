@@ -65,3 +65,22 @@ foot: no process found
 [2023-07-04 17:44:41.733] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
 warn: terminal.c:1861: slave exited with signal 15 (Terminated)
 warn: server.c:72: client FD=7: terminal still alive
+[2023-07-11 07:13:18.696] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-11 07:13:18.704] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-11 07:13:18.998] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-11 07:13:18.998] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: terminal.c:1861: slave exited with signal 15 (Terminated)
+warn: server.c:72: client FD=7: terminal still alive
+[2023-07-13 18:22:04.301] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2023-07-13 18:22:04.309] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2023-07-13 18:22:04.544] [warning] Requested height: 16 is less than the minimum height: 42 required by the modules
+[2023-07-13 18:22:04.544] [info] Bar configured (width: 1920, height: 42) for output: eDP-1
+warn: server.c:72: client FD=7: terminal still alive
