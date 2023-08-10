@@ -1,2 +1,0 @@
-pgrep -x swww-daemon >/dev/null && echo "Swww is running." || swww init &&
-swww clear "#0B0B11"

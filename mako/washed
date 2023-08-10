@@ -4,17 +4,17 @@ layer=overlay
 
 # STYLE
 font=Barlow 14
-width=200
-height=200
+width=240
+height=150
 margin=0,0,10
-padding=30
+padding=20, 0
 border-size=0
-border-radius=20
-progress-color=#ffffff
-max-icon-size=64
+border-radius=10
+progress-color=#8f8aac
+max-icon-size=128
 icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
 icon-location=left
-format=<b>%a</b>\n%s
+format=<span color="#45475A"><b>%a</b>   \n%s</span>
 text-alignment=center
 anchor=bottom-center
 
@@ -22,21 +22,21 @@ anchor=bottom-center
 ## urgency
 [urgency=low]
 default-timeout=2500
-background-color=#995867
-border-color=#0B0B11
-text-color=#ffffff
+background-color=#020202
+border-color=#020202
+text-color=#e7e7e7
 
 [urgency=normal]
 default-timeout=8000
-background-color=#995867
-border-color=#0B0B11
-text-color=#ffffff
+background-color=#020202
+border-color=#020202
+text-color=#e7e7e7
 
 [urgency=critical]
 default-timeout=0
 background-color=#C20618
 border-color=#D70015
-text-color=#ffffff
+text-color=#e7e7e7
 
 ## app-name
 # [app-name=Pomodoro]
@@ -49,8 +49,8 @@ text-color=#ffffff
 [app-name=Spotify]
 default-timeout=8000
 format=<b>Spotify</b>\n%b
-width=300
-padding=20
+width=400
+padding=15
 anchor=top-left
 margin=70
 #
@@ -64,9 +64,13 @@ margin=70
 # format=<b>%s</b>\n%b
 # group-by=app-name
 #
-# [app-name=batsignal]
-# format=<b>%s</b>\n%b
-#
+[app-name="Welcome"]
+format=<span color="#575867"><b>%a</b>   \n%s</span>
+width=300
+anchor=bottom-center
+margin=90
+padding=30
+
 # group-by=app-name
 # [app-name=udiskie]
 # default-timeout=2500

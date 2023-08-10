@@ -1,25 +1,21 @@
 /* Mocha Flamingo */
-@define-color accent #995867;
-@define-color dim #71747D;
-@define-color txt #101019;
-@define-color bg #dddddd;
-@define-color bg2 #101019;
+@define-color accent #AC8A8C;
+@define-color dim #585B70;
+@define-color txt #e7e7e7;
+@define-color bg #0F0F0F;
+@define-color bg2 #0F0F0F;
 
 * {
-  font-family: "Barlow ", monospace;
+  font-family: "Barlow", monospace;
   font-size: 14px;
-  border: none;
-  box-shadow: none;
 }
 
 /* Window */
 window {
   margin: 0px;
-  border-radius: 20px;
-  padding: 5px;
-  background-color: rgba(225, 225, 225, 0.8);
-  /* border: 4px solid @txt; */
-  /* background-color: @bg; */
+  border-radius: 0px;
+  padding: 0px;
+  background-color: @bg;
 }
 
 expander list row {
@@ -58,12 +54,13 @@ expander list row {
 #outer-box {
   margin: 7px;
   padding: 0px;
+  border: none;
   /* background-color: @bg; */
 }
 
 /* Scroll */
 #scroll {
-  margin: 0px;
+  margin: 10px;
   padding: 10px;
   border: none;
 }
@@ -73,7 +70,7 @@ expander list row {
 }
 /* Input */
 #input {
-  padding: 10px;
+  padding: 15px;
   border: none;
   color: @dim;
   font-size: 24;
@@ -86,7 +83,7 @@ expander list row {
 /* Text */
 #text {
   margin: 5px;
-  padding: 10px;
+  padding: 07px;
   border: none;
   font-size: 18px;
   color: @txt;
@@ -96,6 +93,7 @@ expander list row {
 /* Selected Entry */
 #entry:selected {
   background-color: @accent;
+  border-radius: 10px;
 }
 
 #entry:selected #text {

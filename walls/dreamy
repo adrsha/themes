@@ -1,4 +1,0 @@
-killall waybar
-pgrep -x swww-daemon >/dev/null && echo "Swww is running." || swww init &&
-swww clear "#ffffff"
-swww img /home/chilly/Pictures/walls/Dreamy/aesthetic-moon-wallpaper-desktop.jpg -t grow --transition-duration 1 --fill-color ffffff

@@ -1,9 +1,8 @@
 #!/bin/bash
 
-cp ~/Themes/gtk/cat ~/Themes/gtk/$1
-cp ~/Themes/foot/cat ~/Themes/foot/$1
-cp ~/Themes/hypr/cat ~/Themes/hypr/$1
-cp ~/Themes/nvim/cat ~/Themes/nvim/$1
-cp ~/Themes/wofi/cat ~/Themes/wofi/$1
-cp ~/Themes/mako/cat ~/Themes/mako/$1
-cp ~/Themes/walls/cat ~/Themes/walls/$1
+cp ~/Themes/gtk/code ~/Themes/gtk/$1
+cp ~/Themes/kitty/code ~/Themes/kitty/$1
+cp ~/Themes/hypr/code ~/Themes/hypr/$1
+cp ~/Themes/nvim/code ~/Themes/nvim/$1
+cp ~/Themes/wofi/code ~/Themes/wofi/$1
+cp ~/Themes/mako/code ~/Themes/mako/$1

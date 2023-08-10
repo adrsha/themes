@@ -2,8 +2,8 @@
 @define-color accent #cad3f5;
 @define-color dim #71747D;
 @define-color txt #cad3f5;
-@define-color bg #000000;
-@define-color bg2 #101010;
+@define-color bg #101019;
+@define-color bg2 #101019;
 
 * {
   font-family: "Barlow", monospace;
@@ -61,7 +61,7 @@ expander list row {
 
 /* Scroll */
 #scroll {
-  margin: 0px;
+  margin: 10px;
   padding: 10px;
   border: none;
 }
@@ -71,7 +71,7 @@ expander list row {
 }
 /* Input */
 #input {
-  padding: 10px;
+  padding: 20px;
   border: none;
   color: @dim;
   font-size: 24;
@@ -94,6 +94,7 @@ expander list row {
 /* Selected Entry */
 #entry:selected {
   background-color: @accent;
+  border-radius: 10px;
 }
 
 #entry:selected #text {

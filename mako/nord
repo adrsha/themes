@@ -3,18 +3,18 @@
 layer=overlay
 
 # STYLE
-font=Barlow 14
+font=Barlow SemiBold 14
 width=240
 height=150
 margin=0,0,10
 padding=20, 0
 border-size=0
 border-radius=20
-progress-color=#89B4FA
+progress-color=#B5E8E0
 max-icon-size=128
 icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
 icon-location=left
-format=<span color="#575867"><b>%a</b>   \n%s</span>
+format=<span color="#4e586c"><b>%a</b>   \n%s</span>
 text-alignment=center
 anchor=bottom-center
 
@@ -22,14 +22,14 @@ anchor=bottom-center
 ## urgency
 [urgency=low]
 default-timeout=2500
-background-color=#08080c
-border-color=#0B0B11
+background-color=#181b21
+border-color=#181b21
 text-color=#C9CBFF
 
 [urgency=normal]
 default-timeout=8000
-background-color=#08080c
-border-color=#0B0B11
+background-color=#181b21
+border-color=#181b21
 text-color=#C9CBFF
 
 [urgency=critical]
@@ -65,7 +65,7 @@ margin=70
 # group-by=app-name
 #
 [app-name="Welcome"]
-format=<span color="#575867"><b>%a</b>   \n%s</span>
+format=<span color="#eceff4"><b>%a</b>   \n%s</span>
 width=300
 anchor=bottom-center
 margin=90

@@ -6,11 +6,11 @@ monitor=,preferred,auto,1
 # █▀▀ ▀▄▀ █▀▀ █▀▀
 # ██▄ █░█ ██▄ █▄▄
 # Execute your favorite apps at launch
-exec-once = /home/chilly/Scripts/setwall.sh
-exec-once = waybar
-exec-once = foot -s
 exec-once = wl-paste --type text --watch cliphist store #Stores only text data
 exec-once = wl-paste --type image --watch cliphist store #Stores only image data
+exec-once = wbg ~/Pictures/walls/nord/solid.png
+exec-once = hyprctl setcursor GoogleDot-Black 8
+exec-once = /home/chilly/Scripts/welcome.sh
 
 # Source a file (multi-file configs)
 # source = ~/.config/hypr/myColors.conf
@@ -42,13 +42,13 @@ input {
 general {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
     gaps_in = 4
-    gaps_out = 90
-    border_size = 0
-    col.active_border = rgba(12121Cff)
+    gaps_out = 30
+    border_size = 10
+    col.active_border = rgba(242933ff)
     # col.active_border = rgba(0B0B11ff)
     # col.active_border = rgba(33ccff00) rgba(00ff99ee) 45deg
     # col.inactive_border = rgba(0B0B11ff)
-    col.inactive_border = rgba(12121Cff)
+    col.inactive_border = rgba(242933ff)
     
     layout = dwindle
 }
@@ -58,17 +58,16 @@ general {
 
 decoration {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
-    rounding = 20
+    rounding = 10
     
-    blur = yes
+    blur = no
     blur_size = 5
     blur_passes = 3
-    blur_ignore_opacity = on
     blur_new_optimizations = on
+    blur_ignore_opacity=on
     
     active_opacity = 1.0
-    inactive_opacity = 0.6
-    # inactive_opacity = 0.6
+    inactive_opacity = 1.0
    
     drop_shadow = no
     # drop_shadow = true
@@ -97,9 +96,9 @@ animations {
     # animation = windowsIn, 1, 7, default, popin 30%
     
     animation=windows,1,4,overshot,slide
-    animation=border,1,4,default
-    animation=fade,1,4,default
-    animation=fadeDim,1,4,smoothIn
+    animation=border,1,10,default
+    animation=fade,1,2,default
+    animation=fadeDim,1,8,smoothIn
     animation=workspaces,1,6,overshot,slidevert
 }
 
@@ -107,8 +106,6 @@ animations {
 # ▀▄▀▄▀ █ █░▀█ █▄▀ █▄█ ▀▄▀▄▀   █▀▄ █▄█ █▄▄ ██▄ ▄█
 windowrule = float, confirm
 windowrule = float, dialog
-windowrule = float, title:^(Firefox — Sharing Indicator)$
-windowrule = move 960 45, title:^(Firefox — Sharing Indicator)$
 windowrule = tile, class:^(spotify)$
 
 # █░░ ▄▀█ █▄█ █▀█ █░█ ▀█▀ █▀
@@ -144,7 +141,7 @@ device:epic mouse V1 {
 # █░▀░█ █ ▄█ █▄▄
 misc {
   enable_swallow = true
-  swallow_regex = '^(foot)$'
+  swallow_regex = ^(kitty)$
   disable_hyprland_logo = true
   disable_splash_rendering = true
   animate_manual_resizes = true
@@ -164,11 +161,11 @@ i
 $mainMod = SUPER
 # Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
 # bind = $mainMod, return, exec, alacritty
-bind = $mainMod, return, exec, footclient
+bind = $mainMod, return, exec, kitty
 bind = $mainMod ALT, f , exec, firefox
-bind = $mainMod ALT, c , exec, hyprpicker -a
+bind = $mainMod ALT, c , exec, grim -g "$(slurp -p -b '0x000000')" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | tr -d '\n' | wl-copy
 bind = $mainMod ALT, s , exec, spotify
-bind = $mainMod ALT, w , exec, killall waybar; waybar
+bind = $mainMod ALT, l , exec, swaylock
 bind = , PRINT, exec, grim -g "$(slurp -w 0)" - | wl-copy
 bind = SHIFT, PRINT, exec, grim -g "$(slurp -w 0)"
 bind = $mainMod, PRINT, exec, grim -g "0,0 1920x1080" - | wl-copy
@@ -177,9 +174,9 @@ bind = $mainMod, Q, killactive,
 bind = $mainMod, End, exit,
 bind = $mainMod SHIFT, End, exec, poweroff
 bind = $mainMod SHIFT, Home, exec, reboot
+bind = $mainMod CTRL, Down , exec, /home/chilly/Scripts/themeswitcher.py 'd'
+bind = $mainMod CTRL, Up , exec, /home/chilly/Scripts/themeswitcher.py 'u'
 bind = $mainMod, V, togglefloating,
-bind = $mainMod CTRL, Down , exec, python /home/chilly/Scripts/themeswitcher.py d
-bind = $mainMod CTRL, Up , exec, python /home/chilly/Scripts/themeswitcher.py u
 bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, T, togglesplit, # dwindle
 bind = $mainMod, S, togglefloating, # dwindle
@@ -244,7 +241,8 @@ bind = $mainMod ALT, B, exec, sh /home/chilly/Scripts/notifs.sh battery
 bind = $mainMod ALT, T, exec, sh /home/chilly/Scripts/notifs.sh time
 
 # launcher
-bind = ALT, space, exec, wofi
+# bind = ALT, space, exec, sh /home/chilly/.config/rofi/launchers/launcher.sh
+bind = ALT, space, exec, wofi -a
 bind = SUPER_SHIFT, S, movetoworkspace, special
 bind = $mainMod, space, togglespecialworkspace,
 
@@ -260,5 +258,10 @@ binde = $mainMod CTRL, h, resizeactive, -20 0
 binde = $mainMod CTRL, l, resizeactive, 20 0
 binde = $mainMod CTRL, k, resizeactive, 0 -20
 binde = $mainMod CTRL, j, resizeactive, 0 20
-# layerrule = blur, waybar
-# layerrule = blur, notifications
+
+# windowrulev2 = bordercolor rgb(FFFF00),title:^(.*Hyprland.*)$ # set bordercolor to yellow when title contains Hyprland
+windowrulev2 = bordercolor rgba(00000000),class:^(.*wofi.*)$
+windowrulev2 = animation slide, class:^(.*wofi.*)$ # sets the animation style for kitty
+# layerrule = blur, wofi
+# layerrule = noanim, wofi
+# layerrule = round, wofi
