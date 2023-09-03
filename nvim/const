@@ -37,33 +37,33 @@ return {
       },
       color_overrides = {
         mocha = {
-          rosewater = "#F5E0DC",
-          flamingo = "#F2CDCD",
-          mauve = "#DDB6F2",
-          pink = "#F5C2E7",
-          red = "#F28FAD",
-          maroon = "#E8A2AF",
-          peach = "#F8BD96",
-          yellow = "#FAE3B0",
-          green = "#ABE9B3",
-          blue = "#96CDFB",
-          sky = "#89DCEB",
-          teal = "#B5E8E0",
-          lavender = "#C9CBFF",
+          rosewater = "#524546",
+          flamingo = "#4d4046",
+          mauve = "#4d4055",
+          pink = "#4d4046",
+          red = "#333129",
+          maroon = "#34342d",
+          peach = "#4b4329",
+          yellow = "#434329",
+          green = "#364629",
+          blue = "#324448",
+          sky = "#324448",
+          teal = "#324a43",
+          lavender = "#32454d",
 
-          text = "#D9E0EE",
-          subtext1 = "#BAC2DE",
-          subtext0 = "#A6ADC8",
-          overlay2 = "#C3BAC6",
-          overlay1 = "#988BA2",
-          overlay0 = "#6E6C7E",
-          surface2 = "#575268",
-          surface1 = "#1e1e2e",
-          surface0 = "#1e1e2e",
+          text = "#8a918f",
+          subtext1 = "#878e8c",
+          subtext0 = "#848b89",
+          overlay2 = "#828987",
+          overlay1 = "#4c5351",
+          overlay0 = "#383f3d",
+          surface2 = "#29302e",
+          surface1 = "#252c2a",
+          surface0 = "#151C1A",
 
-          base = "#11111b",
-          mantle = "#1A1826",
-          crust = "#161320",
+          base = "#101715",
+          mantle = "#151C1A",
+          crust = "#151C1A",
         },
       },
       custom_highlights = {},
@@ -72,8 +72,8 @@ return {
         gitsigns = true,
         nvimtree = true,
         telescope = true,
-        notify = true,
-        mini = true,
+        notify = false,
+        mini = false,
         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
       },
     })
@@ -107,7 +107,6 @@ return {
 
   highlight! CmpItemAbbrDeprecated guibg=NONE gui=strikethrough guifg=#808080
 
-
   highlight! CmpItemAbbrMatch guibg=NONE guifg=#CCCBD9
   highlight! link CmpItemAbbrMatchFuzzy CmpItemAbbrMatch
 
@@ -129,22 +128,22 @@ return {
     autocmd BufWritePost packer.lua source <afile> | PackerSync
   augroup end
 
-highlight NotifyERRORBorder guifg=#F28FAD
-highlight NotifyWARNBorder guifg=#FAE3B0
-highlight NotifyINFOBorder guifg=#ABE9B3
+highlight NotifyERRORBorder guifg=#333129
+highlight NotifyWARNBorder guifg=#434329
+highlight NotifyINFOBorder guifg=#324a43
 highlight NotifyDEBUGBorder guifg=#575268
-highlight NotifyTRACEBorder guifg=#988BA2
+highlight NotifyTRACEBorder guifg=#4d4046
 
-highlight NotifyERRORIcon guifg=#F5C2E7
-highlight NotifyWARNIcon guifg=#F8BD96
-highlight NotifyINFOIcon guifg=#ABE9B3
+highlight NotifyERRORIcon guifg=#524546
+highlight NotifyWARNIcon guifg=#4b4329
+highlight NotifyINFOIcon guifg=#324a43
 highlight NotifyDEBUGIcon guifg=#6E6C7E
-highlight NotifyTRACEIcon guifg=#DDB6F2
-highlight NotifyERRORTitle  guifg=#F5C2E7
-highlight NotifyWARNTitle guifg=#F8BD96
-highlight NotifyINFOTitle guifg=#ABE9B3
+highlight NotifyTRACEIcon guifg=#4d4055
+highlight NotifyERRORTitle  guifg=#524546
+highlight NotifyWARNTitle guifg=#4b4329
+highlight NotifyINFOTitle guifg=#324a43
 highlight NotifyDEBUGTitle  guifg=#6E6C7E
-highlight NotifyTRACETitle  guifg=#DDB6F2
+highlight NotifyTRACETitle  guifg=#4d4055
 highlight link NotifyERRORBody Normal
 highlight link NotifyWARNBody Normal
 highlight link NotifyINFOBody Normal
@@ -152,13 +151,13 @@ highlight link NotifyDEBUGBody Normal
 highlight link NotifyTRACEBody Normal
 
 
-highlight TSRainbowOrange  guifg=#F8BD96 ctermfg=White
-highlight TSRainbowRed  guifg=#F28FAD ctermfg=White
-highlight TSRainbowYellow  guifg=#FAE3B0 ctermfg=White
-highlight TSRainbowBlue  guifg=#96CDFB ctermfg=White
-highlight TSRainbowGreen  guifg=#988BA2 ctermfg=White
-highlight TSRainbowViolet  guifg=#DDB6F2 ctermfg=White
-highlight TSRainbowCyan  guifg=#89DCEB ctermfg=White
+highlight TSRainbowOrange  guifg=#4b4329 ctermfg=White
+highlight TSRainbowRed  guifg=#333129 ctermfg=White
+highlight TSRainbowYellow  guifg=#434329 ctermfg=White
+highlight TSRainbowBlue  guifg=#324448 ctermfg=White
+highlight TSRainbowGreen  guifg=#4d4046 ctermfg=White
+highlight TSRainbowViolet  guifg=#4d4055 ctermfg=White
+highlight TSRainbowCyan  guifg=#324a43 ctermfg=White
 ]])
   end
 }

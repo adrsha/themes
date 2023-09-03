@@ -7,14 +7,14 @@ font=Barlow 14
 width=240
 height=150
 margin=0,0,10
-padding=20, 0
+padding=20, 20
 border-size=0
 border-radius=20
-progress-color=#89B4FA
-max-icon-size=128
+progress-color=#00000a
+max-icon-size=64
 icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
 icon-location=left
-format=<span color="#575867"><b>%a</b>   \n%s</span>
+format=<span color="#D9E0EE"><b>%a</b>   \n%s</span>
 text-alignment=center
 anchor=bottom-center
 
@@ -64,12 +64,25 @@ margin=70
 # format=<b>%s</b>\n%b
 # group-by=app-name
 #
-[app-name="Welcome"]
-format=<span color="#575867"><b>%a</b>   \n%s</span>
+[app-name="Arch Linux"]
+format=<span color="#D9E0EE"><b>%a</b>   \n%s</span>
 width=300
 anchor=bottom-center
 margin=90
-padding=30
+padding=40
+
+[app-name="Battery Low!"]
+format=<span color="#F28FAD"><b>%a</b></span>\n%s
+width=300
+anchor=center
+padding=40
+#
+# [app-name="󰂄"]
+# width=150
+# [app-name="󰂂"]
+# width=150
+# [app-name=" "]
+# width=150
 
 # group-by=app-name
 # [app-name=udiskie]

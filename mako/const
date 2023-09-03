@@ -6,15 +6,15 @@ layer=overlay
 font=Barlow 14
 width=240
 height=150
-margin=0,0,10
+margin=0,0,30
 padding=20, 0
-border-size=0
-border-radius=10
-progress-color=#8f8aac
+border-size=4
+border-radius=4
+progress-color=#263531
 max-icon-size=128
 icon-path=/usr/share/icons/WhiteSur-dark:/usr/share/icons/WhiteSur:/usr/share/icons/Adwaita:/usr/share/icons/hicolor
 icon-location=left
-format=<span color="#45475A"><b>%a</b>   \n%s</span>
+format=<span color="#828987"><b>%a</b>   \n%s</span>
 text-alignment=center
 anchor=bottom-center
 
@@ -22,21 +22,21 @@ anchor=bottom-center
 ## urgency
 [urgency=low]
 default-timeout=2500
-background-color=#020202
-border-color=#020202
-text-color=#e7e7e7
+background-color=#101715
+border-color=#263531
+text-color=#C9CBFF
 
 [urgency=normal]
 default-timeout=8000
-background-color=#020202
-border-color=#020202
-text-color=#e7e7e7
+background-color=#101715
+border-color=#263531
+text-color=#C9CBFF
 
 [urgency=critical]
 default-timeout=0
 background-color=#C20618
 border-color=#D70015
-text-color=#e7e7e7
+text-color=#C9CBFF
 
 ## app-name
 # [app-name=Pomodoro]

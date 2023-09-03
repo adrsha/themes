@@ -1,9 +1,9 @@
 [Settings]
 gtk-theme-name=Catppuccin-Mocha-Standard-Flamingo-dark
-gtk-icon-theme-name=Tela-black-dark
+gtk-icon-theme-name=Qogir
 gtk-font-name=Barlow 11
-gtk-cursor-theme-name=breeze_cursors
-gtk-cursor-theme-size=24
+gtk-cursor-theme-name=GoogleDot-Black
+gtk-cursor-theme-size=8
 gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-toolbar-icon-size=GTK_ICON_SIZE_SMALL_TOOLBAR
 gtk-button-images=1

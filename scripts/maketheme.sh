@@ -7,5 +7,3 @@ cp ~/Themes/nvim/code ~/Themes/nvim/$1
 cp ~/Themes/wofi/code ~/Themes/wofi/$1
 cp ~/Themes/mako/code ~/Themes/mako/$1
 cp ~/Themes/chrome/code ~/Themes/chrome/$1
-cp ~/Themes/waybar/code ~/Themes/waybar/$1
-cp ~/Themes/waybar/code.css ~/Themes/waybar/$1.css
